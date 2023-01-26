@@ -6,19 +6,19 @@ To write a python program to implement multivariate linear regression and predic
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1
-<br>
+import pandaa as pd
 
 ### Step2
-<br>
+Read the csv
 
 ### Step3
-<br>
+Get the value of
 
 ### Step4
-<br>
+Create the linear regerssion model and fit
 
 ### Step5
-<br>
+Predict the CO2 emission of a car where the weight is 2300kg and the volume is 1300 cm3
 
 ## Program:
 ```
@@ -33,10 +33,6 @@ print("Coefficient:",regr.coef_)
 print("Intercept:",regr.intercept_)
 predictedCO2=regr.predict([[3300,1300]])
 print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
-
-
-
-
 
 ```
 ## Output:
